@@ -36,9 +36,24 @@ p{
 #box{
     height:370px;
     width:1800px;
-   
-   
-    
+}
+table{
+width:100%;
+font-size: 20px;
+}
+tr{
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+tr:hover{
+    background:#2980b9;
+}
+tr:nth-child(even){
+    background:#bdc3c7;
+}
+tr:nth-child(odd){
+    background:#7f8c8d;
 }
 #pdf{
     height:90%;;

@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"electron ."
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^9.2.1"
+  },
+  "dependencies": {
+    "textract": "^2.5.0"
   }
 }
