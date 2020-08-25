@@ -1,2 +1,2 @@
 # resume-sorter
-![](download.jpg)
+![](images/download.jpg)
