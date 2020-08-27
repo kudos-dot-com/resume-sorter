@@ -49,21 +49,19 @@ var text2;
         fs.readdir(folder,(err,files)=>{
            
             files.forEach(file=>{
+           //to reject trash files of word
             if(file.indexOf('~')!== 0){
-            //c=0;
+            
             textract.fromFileWithPath(`${folder}${file}`, function( error, data ) {
                 if(((data.search(text))!= -1)==true)
                 { c=1;
                     event.sender.send('asynchronous-reply',`${file}`)
-                    console.log(c);
+                   
                 }
             })
         }
         });
-       
-      
-    
-    });
+       });
     
     });
 
