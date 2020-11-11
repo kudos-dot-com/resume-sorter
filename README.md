@@ -1,3 +1,5 @@
+This uses amazon textract to find certain keyword from resume ,and filters them using electron library
+
 # resume-sorter
 ![](images/download.jpg)
 
